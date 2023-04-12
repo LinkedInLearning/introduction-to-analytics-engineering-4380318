@@ -1,0 +1,12 @@
+The purpose of the performance review model is to provide summary metrics for each product we offer as per the request of the business team. By doing this, we can more quickly identify which products are selling well and where, and what we can improve upon.
+
+ In this model, we have the following columns: 
+Product_ID: unique identifier for the product
+Product_Name: name of the product, a combination of the flavor and whether it’s a bottle/case.
+Product_Category: this is either a bottle or case of olive oil
+Product Price: the price of the product
+Total_Product_Sold: the number of products sold, whether it is a bottle or case.
+Total_Product_orders: the number of orders that were placed - this may include multiple products in one order.
+Total_States: this is the number of states we have received orders from
+
+Total_States was most recently added to track the impact of marketing/global outreach of each product.
