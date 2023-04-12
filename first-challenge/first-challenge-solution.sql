@@ -6,9 +6,9 @@ create view product_perf as
         , p.Description as Product_Description
         , p.Price as Product_Price
         , p.ImageURL as Product_ImageURL
-        , sum(oi.Quantity) as Total_Product_Sold
-        , count(oi.OrderId) as Total_Product_Orders
+        , sum(o.Quantity) as Total_Product_Sold
+        , count(o.OrderId) as Total_Product_Orders
 
-from product p
-join order_item oi
-    on oi.product_id = p.product_id
+from products p
+join orders o
+    on o.product_id = p.product_id
