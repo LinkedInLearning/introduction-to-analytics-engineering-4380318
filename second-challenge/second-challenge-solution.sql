@@ -12,4 +12,4 @@ from products p
 join orders o
     on o.product_id = p.product_id
 join customers c
-    on c.customerid = o.customer_id
+    on c.cust_id = o.cust_id
