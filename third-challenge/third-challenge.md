@@ -1,9 +1,11 @@
 # third-challenge
 
-For this challenge, you can either add your own solution from the first chapter or use the first-solution-challenge.sql already in this repo. The solution here in this case will be a branch called second-challenge-solution, so when you are ready you can switch to that branch and check out the pull requests there. The second-challenge-solution.sql will have the full solution.
+For your last challenge, you’re going to write some documentation surrounding your data model. Please try to include:
 
-Sample PR answer can be viewed here: #1
+Purpose of the data table
+What each individual column means
+Why/what changes were made in the second project.
 
-The business team wants to know if they can add the number of unique customers that ordered each product. But since they’ve decided this you got another person on your team that needs to approve these changes as well.
+There is no specific formatting required here (you'll find some companies may differ here), but it is key to make sure you include all the necessary content!
 
-So let’s create a new branch off of this one and create a pull request to add in our new changes!
+For this purpose of this exercise, this also does not need to be very long.
