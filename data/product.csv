@@ -1,4 +1,4 @@
-SKU,ProductCategory,ProductName,Price
+Product_Id,ProductCategory,ProductName,Price
 B0001,Bottle,Lemon (bottle),13.95
 B0002,Bottle,Garlic (bottle),13.95
 B0003,Bottle,Rosemary (bottle),13.95
