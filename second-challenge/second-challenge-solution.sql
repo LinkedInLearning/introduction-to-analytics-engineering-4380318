@@ -1,17 +1,15 @@
 create view product_perf as
     select
-        p.ProductId as Product_ID
+        p.Product_Id as Product_ID
         , p.ProductName as Product_Name
         , p.Category as Product_Category
-        , p.Description as Product_Description
         , p.Price as Product_Price
-        , p.ImageURL as Product_ImageURL
         , sum(o.Quantity) as Total_Product_Sold
-        , count(o.OrderNum) as Total_Product_Orders
+        , count(o.Order_Id) as Total_Product_Orders
         , count(distinct c.state) as Total_Unique_Customers
 
 from products p
 join orders o
-    on o.product_id = p.SKU
+    on o.product_id = p.product_id
 join customers c
-    on c.customerid = o.customerid
+    on c.customerid = o.customer_id
