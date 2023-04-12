@@ -11,4 +11,4 @@ create view product_perf as
 
 from products p
 join orders o
-    on o.product_id = p.product_id
+    on o.product_id = p.SKU
