@@ -5,7 +5,6 @@ create view product_perf as
         , p.Category as Product_Category
         , p.Description as Product_Description
         , p.Price as Product_Price
-        , p.ImageURL as Product_ImageURL
         , sum(o.Quantity) as Total_Product_Sold
         , count(o.OrderNum) as Total_Product_Orders
         , count(distinct c.state) as Total_Unique_Customers
