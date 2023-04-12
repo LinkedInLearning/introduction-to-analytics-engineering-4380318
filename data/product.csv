@@ -1,0 +1,14 @@
+SKU,ProductCategory,ProductName,Price
+B0001,Bottle,Lemon (bottle),13.95
+B0002,Bottle,Garlic (bottle),13.95
+B0003,Bottle,Rosemary (bottle),13.95
+B0004,Bottle,Basil (bottle),13.95
+B0005,Bottle,Chili (bottle),13.95
+B0006,Bottle,Bold (bottle),13.95
+C0001,Case,Lemon (case),82.95
+C0002,Case,Garlic (case),82.95
+C0003,Case,Rosemary (case),82.95
+C0004,Case,Basil (case),82.95
+C0005,Case,Chili (case),82.95
+C0006,Case,Bold (case),82.95
+C0007,Case,Assortment (case),82.95
