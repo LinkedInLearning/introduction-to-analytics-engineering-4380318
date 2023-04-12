@@ -1,8 +1,8 @@
-CustNum,CustFirstName,CustLastName,CustFullName,Phone,Address,City,State,ZIPCode
+Cust_Id,CustFirstName,CustLastName,CustFullName,Phone,Address,City,State,ZIPCode
 1,Cally,Reynolds,Cally Reynolds,(901) 166-8355,556 Lakewood Park,Bismarck,North Dakota,58505
 2,Sydney,Bartlett,Sydney Bartlett,(982) 231-7357,4829 Badeau Parkway,Chattanooga,Tennessee,37405
 3,Hunter,Newton,Hunter Newton,(831) 996-1240,2 Rockefeller Avenue,Waco,Texas,76796
-4,Brooke,Perkins,Brooke Perkins,(340) 732-9367,87 Brentwood Park,Dallas,Texas,75358
+4,Brook,Perkins,Brooke Perkins,(340) 732-9367,87 Brentwood Park,Dallas,Texas,75358
 5,Nolan,Slater,Nolan Slater,(540) 487-5928,99 Sage Street,Reno,Nevada,89505
 6,Germaine,Green,Germaine Green,(466) 455-4160,6 Jana Park,San Antonio,Texas,78240
 7,Medge,Ratliff,Medge Ratliff,(358) 751-8227,75 Erie Terrace,Dayton,Ohio,45454
