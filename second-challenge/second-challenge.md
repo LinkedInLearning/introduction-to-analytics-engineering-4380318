@@ -5,4 +5,6 @@ Sample PR answer can be viewed here: https://github.com/LinkedIn-Intro-to-Analyt
 
 The business team wants to know if they can add the number of states they're sending each product. But since they’ve decided this you got another person on your team that needs to approve these changes as well.
 
-So let’s create a new branch off of this one and create a pull request to add in our new changes!
+So let’s create a new branch off of this one and create a pull request to add in our new changes! 
+When you are ready to see a sample answer click the "Pull requests" tab above to view the one branch named "PR Solution".
+ 
