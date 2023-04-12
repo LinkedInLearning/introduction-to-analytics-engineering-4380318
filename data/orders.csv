@@ -1,4 +1,4 @@
-OrderNum,CustNum,Date of Purchase,ProductID,Quantity
+Order_Id,Cust_Id,Date of Purchase,ProductID,Quantity
 1,77,1/1/2017,B0001,3
 2,42,1/1/2017,B0001,2
 3,5,1/5/2017,B0001,1
