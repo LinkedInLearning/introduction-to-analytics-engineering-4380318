@@ -6,14 +6,12 @@ create view product_perf as
         , p.Description as Product_Description
         , p.Price as Product_Price
         , p.ImageURL as Product_ImageURL
-        , sum(oi.Quantity) as Total_Product_Sold
-        , count(oi.OrderId) as Total_Product_Orders
+        , sum(o.Quantity) as Total_Product_Sold
+        , count(o.OrderNum) as Total_Product_Orders
         , count(distinct CustomerId) as Total_Unique_Customers
 
-from product p
-join order_item oi
-    on oi.productid = p.productid
-join order o
-    on o.orderid = oi.orderid
-join customer c
+from products p
+join orders o
+    on o.product_id = p.SKU
+join customers c
     on c.customerid = o.customerid
