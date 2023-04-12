@@ -8,7 +8,10 @@ create view product_perf as
         , p.ImageURL as Product_ImageURL
         , sum(o.Quantity) as Total_Product_Sold
         , count(o.OrderNum) as Total_Product_Orders
+        , count(distinct c.state) as Total_Unique_Customers
 
 from products p
 join orders o
     on o.product_id = p.SKU
+join customers c
+    on c.customerid = o.customerid
