@@ -7,7 +7,7 @@ create view product_perf as
         , p.Price as Product_Price
         , p.ImageURL as Product_ImageURL
         , sum(o.Quantity) as Total_Product_Sold
-        , count(o.OrderId) as Total_Product_Orders
+        , count(o.OrderNum) as Total_Product_Orders
 
 from products p
 join orders o
