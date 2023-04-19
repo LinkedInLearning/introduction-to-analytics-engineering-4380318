@@ -8,7 +8,7 @@ Your view should include the following
 - Product Category
 - Product Price
 - Total Product sold 
-- Total Product Orders (hint: count order ids
+- Total Product Orders (hint: count order ids)
 
 You can create a view using this syntax:
 create view ''view_name''
