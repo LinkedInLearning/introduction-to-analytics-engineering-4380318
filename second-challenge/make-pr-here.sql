@@ -6,7 +6,10 @@ create view product_perf as
         , p.Price as Product_Price
         , sum(o.Quantity) as Total_Product_Sold
         , count(o.Order_Id) as Total_Product_Orders
-
+        , count(distinct c.state) as state_cnt
 from products p
 join orders o
     on o.product_id = p.product_id
+join customers c
+on c.cust_id = o.cust_id
+group by 1,2,3,4
