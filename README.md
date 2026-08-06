@@ -1,3 +1,24 @@
+## 🫒 My Solution — Product Performance View
+
+As part of the LinkedIn Learning course *"Introduction to Analytics Engineering"*,
+I completed the first challenge: building a Snowflake view (`product_perf`) that
+aggregates product sales for a mock company, **Two Trees Olive Oil**.
+
+**What the view does:**
+- Joins the `products` and `orders` tables
+- Calculates `total_product_sold` (units sold) using `SUM(quantity)`
+- Calculates `total_product_orders` (distinct orders) using `COUNT(DISTINCT order_id)`
+- Groups results by product to produce a clean, analyst-friendly table
+
+📄 [View my solution](./first-challenge/first-challenge-my-solution.sql)
+
+**Skills practiced:**
+- SQL `JOIN`s across tables with mismatched column names
+- Aggregate functions (`SUM`, `COUNT DISTINCT`)
+- `GROUP BY` rules for aggregated queries
+- Writing clean, well-named views for downstream BI tools (e.g. Looker)
+
+
 # Introduction to Analytics Engineering
 This is the repository for the LinkedIn Learning course Introduction to Analytics Engineering. The full course is available from [LinkedIn Learning][lil-course-url].
 
